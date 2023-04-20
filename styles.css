@@ -1,0 +1,16 @@
+.logo{
+    width: 200px;
+}
+a{
+    text-decoration: none;
+    margin-left: 45px;
+}
+li{
+    display: inline;
+    position: relative;
+    margin-left: 50px;
+}
+.navbar{
+    margin-left: 150px;
+    letter-spacing: 2px;
+}
