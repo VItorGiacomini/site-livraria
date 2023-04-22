@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+}
+body{
+  width: 100% ;
+}
 header {
     width: 100%;
     background-color: rgba(199, 131, 131, 0.582);
@@ -97,4 +103,27 @@ header {
   }
   #alinha-texto{
     margin-top: -15px;
+  }
+  .comprar{
+    background-color: #FDD900;
+    border-radius: 25px;
+    width: 180px;
+    height: 30px;
+    border: none;
+    margin-top: 45px;
+    margin-left: 20px;
+  }
+  .comprar:hover{
+    background-color:#7d7d7d;
+    color: #fff;
+    cursor: pointer;
+  }
+  .border-card{
+    box-sizing: border-box;
+  }
+  .box{
+    margin-top: 480px;
+    margin-left: 90px;
+    font-size: 25px;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
   }
