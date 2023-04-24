@@ -14,12 +14,12 @@
   {
     margin-left: 740px;
     box-sizing: border-box ;
-    margin-top: -350px;
+    margin-top: -390px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgb(0 0 0 / 10%);
     width: 420px;
     float: left;
-    height: 320px
+    height: 380px
   }
   .descricao-container{
     box-sizing: border-box;
@@ -89,14 +89,14 @@
     background-color: black;
     color: #fff;
   }
-  .comprar:hover{
-    background-color: black;
+ .comprar:hover{
+    background-color: rgb(48, 48, 48);
     color: #fff;
   }
   
   .line {
-    margin: 0;
-    margin-top: -35px;
+
+    margin-top: -20px;
     height: 80px;
     width: 395px;
     align-items: center;
@@ -150,9 +150,9 @@
     color: #7d7d7dbe;
   }
   table {
+    margin-bottom: 45px;
     margin-left: 50px;   
     width: 90%
-    
   }
   
   th{
