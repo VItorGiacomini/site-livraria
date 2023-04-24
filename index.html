@@ -14,10 +14,16 @@
     <header>
         <a href="#"> <img class="logo" src="./img/logo.png" alt="logo"></a>
         <nav>
-            <ul class="navbar">
+            <ul class="menu">
                 <li><a href="index.html">Inicío</a></li>
-                <li><a href="categorias.html">Categorias</a></li>
-                <li><a href="leitura-online.html">Leitura Online</a></li>
+                <li  class="dropdown">
+                    <a href="categorias.html">Categorias</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">Mangás</a></li>
+                        <li><a href="">Terror</a></li>
+                        <li><a href="">Ficção</a></li>
+                    </ul></li>
+                <li><a href="conta.html">Minha Conta</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
@@ -27,7 +33,7 @@
         <div class="card">
             <img src="./img/descontinho.jpg" alt="" class="imagem-desconto">
             <figcaption class="texto-desconto">30%</figcaption>
-           <a href="seja-foda.html"> <img class="card-livro" src="./img/seja-foda.jpg"></a>
+           <a href="./paginas/livros-mais-vendidos/seja-foda.html"> <img class="card-livro" src="./img/seja-foda.jpg"></a>
             <p class="card-text">Seja foda!</p>
             <p class="card-preco-desconto">R$ 49,90</p>
             <p class="card-preco">R$ 34,90</p>
@@ -36,7 +42,7 @@
         <div class="card">
             <img src="./img/descontinho.jpg" alt="" class="imagem-desconto">
             <figcaption class="texto-desconto">67%</figcaption>
-           <a href="a-garota-do-lago.html"> <img class="card-livro" src="./img/a-garota-do-lago.jpg"></a>
+           <a href="./paginas/livros-mais-vendidos/a-garota-do-lago.html"> <img class="card-livro" src="./img/a-garota-do-lago.jpg"></a>
             <p class="card-text">A garota do lago</p>
             <p class="card-preco-desconto">R$ 59,90</p>
             <p class="card-preco">R$ 19,90</p>
@@ -45,7 +51,7 @@
         <div class="card">
             <img src="./img/descontinho.jpg" alt="" class="imagem-desconto">
             <figcaption class="texto-desconto">67%</figcaption>
-            <a href="./A-de-associação-2.html"><img class="card-livro" src="./img/a-de-associação.jpg"></a>
+            <a href="./paginas/livros-mais-vendidos/A-de-associação-2.html"><img class="card-livro" src="./img/a-de-associação.jpg"></a>
             <p class="card-text">A de associação: os obscuros limites da magia (vol. 2)</p>
             <p class="card-preco-desconto" id="alinha-texto">R$ 29,90</p>
             <p class="card-preco">R$ 9,90</p>
@@ -54,7 +60,7 @@
         <div class="card">
             <img src="./img/descontinho.jpg" alt="" class="imagem-desconto">
             <figcaption class="texto-desconto">20%</figcaption>
-           <a href="./o-lado-feio-do-amor.html"> <img class="card-livro" src="./img/o-lado-feio-do-amor.jpg"></a>
+           <a href="./paginas/livros-mais-vendidos/o-lado-feio-do-amor.html"> <img class="card-livro" src="./img/o-lado-feio-do-amor.jpg"></a>
             <p class="card-text">O lado feio do amor</p>
             <p class="card-preco-desconto">R$ 49,90</p>
             <p class="card-preco">R$ 39,90</p>
@@ -62,6 +68,44 @@
         </div>
     </div>
     <h2 class="box">Seleção de Box</h2>
+    <div class="card">
+        <img src="./img/descontinho.jpg" alt="" class="imagem-desconto">
+        <figcaption class="texto-desconto">66%</figcaption>
+        <a href=""><img class="card-livro" src="./img/box/edpoe-icon.png"></a>
+        <p class="card-text">Box Edgar Allan Poe : Histórias extraordinárias</p>
+        <p class="card-preco-desconto" id="alinha-texto">R$ 69,90</p>
+        <p class="card-preco">R$ 23,90</p>
+        <button class="comprar">COMPRAR</button>
+    </div>
+    <div class="card">
+        <img src="./img/descontinho.jpg" alt="" class="imagem-desconto">
+        <figcaption class="texto-desconto">30%</figcaption>
+        <a href=""><img class="card-livro" src="./img/box/banana-icon.jpg"></a>
+        <p class="card-text">Box Diário de um banana -10 volumes</p>
+        <p class="card-preco-desconto" id="alinha-texto">R$ 262,00</p>
+        <p class="card-preco">R$ 183,40</p>
+        <button class="comprar">COMPRAR</button>
+    </div>
+    <div class="card">
+        <img src="./img/descontinho.jpg" alt="" class="imagem-desconto">
+        <figcaption class="texto-desconto">25%</figcaption>
+        <a href=""><img class="card-livro" src="./img/box/authentic-icon.jpg"></a>
+        <p class="card-text">Box trilogia AUTHENTICGAMES</p>
+        <p class="card-preco-desconto" id="alinha-texto">R$  59,90</p>
+        <p class="card-preco">R$ 44,90</p>
+        <button class="comprar">COMPRAR</button>
+    </div>
+    <div class="card">
+        <img src="./img/descontinho.jpg" alt="" class="imagem-desconto">
+        <figcaption class="texto-desconto">20%</figcaption>
+        <a href=""><img class="card-livro" src="./img/box/hp-icon.jpg"></a>
+        <p class="card-text">Box HP Lovecraft Os melhores contos</p>
+        <p class="card-preco-desconto" id="alinha-texto">R$ 79,90</p>
+        <p class="card-preco">R$ 63,90</p>
+        <button class="comprar">COMPRAR</button>
+    </div>
+    <div class="espaco">
+    </div>
 </body>
 
 </html>

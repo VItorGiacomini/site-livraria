@@ -44,6 +44,22 @@ header {
    text-decoration: underline;
     color:rgba(128, 128, 128, 0.541)
   }
+  .menu li.dropdown {
+    position: relative;
+  }
+  .menu .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: -35px;
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+  }
+.menu li.dropdown:hover .dropdown-menu {
+  display: block;
+}
+  
   .mais-vendidos{
     margin-top: 95px;
     margin-left: 90px;
@@ -53,11 +69,13 @@ header {
   .card {
     border-radius: 23px;
     box-shadow: 0 0 20px rgb(0 0 0 / 10%);
-  margin-left: 85px;
-  margin-top: 25px;
+    margin-bottom: 44px;
+    margin-left: 85px;
+    margin-top: 25px;
     width: 220px;
     float: left;
     height: 400px
+    
   }
   .card-livro{
     box-shadow: 2px #ededed;
@@ -127,3 +145,4 @@ header {
     font-size: 25px;
     font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
   }
+ 
