@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Livraria Absolut</title>
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <link rel="stylesheet" href="./css/categoria.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
-    
+    <header>
+        <a href="#"> <img class="logo" src="./img/logo.png" alt="logo"></a>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicío</a></li>
+                <li class="dropdown">
+                    <a href="categorias.html">Categorias</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">Mangás</a></li>
+                        <li><a href="">Terror</a></li>
+                        <li><a href="">Ficção</a></li>
+                    </ul>
+                </li>
+                <li><a href="conta.html">Minha Conta</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <img src="./img/cesta.png" class="cesta">
+            </ul>
+        </nav>
+    </header>
+    <div class="container-card">
+        <div class="card">
+            <figcaption class="texto-desconto">30%</figcaption>
+            <a href="./paginas/livros-mais-vendidos/seja-foda.html"> <img class="card-livro"
+                    src="./img/seja-foda.jpg"></a>
+            <p class="card-text">Mangás</p>
+            <button class="comprar">Acessar</button>
+        </div>
+        <div class="card">
+
+            <figcaption class="texto-desconto">67%</figcaption>
+            <a href="./paginas/livros-mais-vendidos/a-garota-do-lago.html"> <img class="card-livro"
+                    src="./img/a-garota-do-lago.jpg"></a>
+            <p class="card-text">Terror</p>
+       
+            <button class="comprar">Acessar</button>
+        </div>
+        <div class="card">
+
+            <figcaption class="texto-desconto">67%</figcaption>
+            <a href="./paginas/livros-mais-vendidos/a-garota-do-lago.html"> <img class="card-livro"
+                    src="./img/a-garota-do-lago.jpg"></a>
+            <p class="card-text">Ficção</p>
+       
+            <button class="comprar">Acessar</button>
+        </div>
+       </div> 
 </body>
-</html>
