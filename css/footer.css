@@ -6,16 +6,80 @@ footer {
    position: absolute;
    margin-top: 500px;
    width: 1280px;
-   height: 150px;
+   height: 250px;
+
 }
 .atendimento{
    float: left;
+   padding-top: 25px;
    font-size: 25px;
- 
+   margin-bottom: 5px ;
+   box-sizing: border-box;
 }
 .fala-conos{
-  
-   width: 100px;
+   text-align: left;
+  text-decoration: none;
+   width: 300px;
    height: 15px;
-  padding-top: 50px;
+  padding-top: 85px;
+}
+.fala-conos-2{
+   text-align: left;
+  text-decoration: none;
+   width: 300px;
+   height: 15px;
+  padding-top: 25px;
+}
+.fala-conos a{
+text-decoration: none;
+color: #fff;
+}
+.fala-conos-2 a{
+   text-decoration: none;
+   color: #fff;
+   }
+.solicita-atend{
+   margin-left: 50px;
+}
+.copyright{
+   color: #FFFFFF;
+   font-size: 13px;
+   margin: 20px 0 0;
+}
+footer img {
+   box-sizing: border-box;
+   width: 150px;
+}
+.fala-conos-sociais img{
+   text-align: right;
+   width: 30px;
+   height: 30px;
+}
+.fala-conos-sociais{
+   margin-left: 1150px;
+   margin-top:25px;
+}
+.fala-conos-sociais-1{
+   margin-left: 1150px;
+   margin-top:25px;
+}
+.fala-conos-sociais-1 img{
+   text-align: right;
+   width: 30px;
+   height: 30px;
+}
+.fala-conos-sociais:hover{
+   cursor: pointer;
+}
+.fala-conos-sociais-1:hover{
+cursor: pointer;
+}
+.atendimento-sociais{
+   float: right;  
+   font-size: 25px;
+   margin-bottom: 5px ;
+   box-sizing: border-box;
+}
+.redes{
+   margin-top: -200px;
 }
