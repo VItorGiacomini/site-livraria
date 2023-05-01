@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/categoria.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/footer-cate.css">
+
+    <title>Contato</title>
 </head>
 <body>
+    <header>
+        <a href="#"> <img class="logo" src="./img/logo.png" alt="logo"></a>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicío</a></li>
+                <li class="dropdown">
+                    <a href="categorias.html">Categorias</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="./paginas/categorias/mangá.html">Mangás</a></li>
+                        <li><a href="./paginas/categorias/terror.html">Terror</a></li>
+                        <li><a href="./paginas/categorias/ficcao.html">Ficção</a></li>
+                 
+                    </ul>
+                </li>
+                <li><a href="conta.html">Criar Conta</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <img src="./img/cesta.png" class="cesta">
+            </ul>
+        </nav>
+    </header>
+    <div class="container">  
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+          
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+          
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+          
+            <button type="submit">Enviar</button>
+          </form>
+          
+      </div>
     <footer>
         <img src="./img/ifmsmarca.png">    
         <div class="solicita-atend">
