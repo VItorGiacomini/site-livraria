@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/categoria.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/footer-cate.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Registro</title>
 </head>
+
 <body>
-    
+    <header>
+        <a href="./img/logo.png"> <img class="logo" src="./img/logo.png" alt="logo"></a>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicío</a></li>
+               
+                <li><a href="contato.html">Algum problema ?</a></li>
+                 </ul>
+        </nav>
+    </header>
+    <div class="register">
+        <form>
+            <h1>Registrar</h1>
+            <hr>
+
+            <label><b>Nome</b></label>
+            <input type="text" placeholder="Entre com seu nome" name="name" required><br>
+
+            <label><b>Numero de telefone</b></label>
+            <input type="text" placeholder="Diite seu numero de telefone" name="number" required><br>
+
+            <label><b>Email</b></label>
+            <input type="text" placeholder="Digite seu email" name="email" required><br>
+
+            <label><b>Senha</b></label>
+            <input type="password" placeholder="Digite sua senha" name="psw" required><br>
+
+            <label><b>Repita a Senha</b></label>
+            <input type="password" placeholder="Digite a senha novamente" name="psw-repeat" required><br>
+            <hr>
+            <p>Ao criar a conta, você concorda com nossos <a href="#">Termos de Privacidade</a>.</p>
+
+            <button type="submit" class="registerbutton">Registrar</button>
+
+
+
+            <p>Ja tem uma conta ? <a href="#">Faça login</a>.</p>
+
+        </form>
+    </div>
+    <footer>
+        <img src="./img/ifmsmarca.png">
+        <div class="solicita-atend">
+            <h2 class="atendimento">Atendimento</h2>
+            <ul>
+                <li class="fala-conos"><a href="./contato.html">Fale Conosco</a></li>
+                <li class="fala-conos-2"><a href="#">Politica de Vendas, Troca e Privacidade</a></li>
+                <li class="fala-conos-2"><a href="#">Termos e Condições de Compra</a></li>
+            </ul>
+        </div>
+        <div class="redes">
+            <h2 class="atendimento-sociais">Redes sociais</h2>
+            <ul>
+                <li class="fala-conos-sociais-1"><a href="https://www.instagram.com" target="_blank"><img
+                            src="./img/logotipo-do-instagram.png" alt=""></a></li>
+                <li class="fala-conos-sociais"><a href="https://www.youtube.com" target="_blank"><img
+                            src="./img/linkedin.png" alt=""></a></li>
+                <li class="fala-conos-sociais"><a href="https://www.linkedin.com" target="_blank"><img
+                            src="./img/youtube.png" alt=""></a></li>
+            </ul>
+        </div>
+        <p class="copyright">© Copyright <a href="https://www.instagram.com/vgiacominixx/">Vitor Giacomini</a> - TADS 2
+            - 2023</p>
+    </footer>
 </body>
+
 </html>

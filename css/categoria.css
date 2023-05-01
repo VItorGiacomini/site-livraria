@@ -3,6 +3,7 @@
   }
   body{
     width: 100% ;
+    background-color: rgba(199, 131, 131, 0.075);
   }
   header {
       width: 100%;

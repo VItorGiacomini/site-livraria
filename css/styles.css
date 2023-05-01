@@ -3,10 +3,11 @@
 }
 body{
   width: 100% ;
+  background-color: rgba(199, 131, 131, 0.075);
 }
 header {
     width: 100%;
-    background-color: rgba(199, 131, 131, 0.582);
+    background-color: rgba(199, 131, 131, 0.075);
     height: 115px;
     line-height: 60px;
     padding: 0 20px;
@@ -75,6 +76,7 @@ header {
     font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
   }
   .card {
+    background-color: #fff;
     border-radius: 23px;
     box-shadow: 0 0 20px rgb(0 0 0 / 10%);
     margin-bottom: 44px;
@@ -89,6 +91,14 @@ header {
     box-shadow: 2px #ededed;
     border-radius: 8px;
     margin-top: -35px;
+    height: 220px;
+    cursor: pointer;
+  }
+  .card-livro-guia{
+    box-shadow: 2px #ededed;
+    border-radius: 8px;
+    margin-top: -35px;
+    margin-left: 35px;
     height: 220px;
     cursor: pointer;
   }
